@@ -2,6 +2,7 @@
 node_modules
 build
 dist
+../.vscode/
 # dependencies
 /.pnp
 .pnp.js
