@@ -5,7 +5,6 @@ function App() {
   return (
     <main className="App">
       <Register/>
-      <Login/>
     </main>
   );
 }

@@ -37,7 +37,7 @@ const Register = () => {
     }, [user])
 
     useEffect( () => {
-        const result =  PWD_REGEX_REGEX.test(pwd);
+        const result =  PWD_REGEX.test(pwd);
         console.log(result);
         console.log(pwd);
         setvalidPwd(result);
@@ -108,6 +108,7 @@ const Register = () => {
                     type="password"
                     id="password"
                     onChange={(e) => setPwd(e.target.value)}
+                    value={pwd}
                     required
                     aria-invalid={validPwd ? "false" : "true"}
                     aria-describedby="pwdnote"
