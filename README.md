@@ -1,5 +1,4 @@
-# Reminder-app
-A collaborative reminder web application
+# web application
 
 To start the client application 
 1. Navigate to the client directory - cd client
